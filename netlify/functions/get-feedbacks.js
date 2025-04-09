@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BIN_ID = process.env.VITE_JSONBIN_ID;
-const API_KEY = process.env.VITE_JSONBIN_API_KEY;
+const BIN_ID = process.env.JSONBIN_ID;
+const API_KEY = process.env.JSONBIN_API_KEY;
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "GET") {
